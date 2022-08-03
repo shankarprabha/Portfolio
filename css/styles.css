@@ -1,24 +1,69 @@
 body{
-  background: #FFF;
   margin: 0 100px;
+  background-color: #fdfdfd;
+  background-image: radial-gradient(circle, powderblue 1px, rgba(0,0,0,0) 1px);
+  background-size: 1rem 1rem;
 }
 
 h1{
+  color: #2541B2;
   margin: 0;
+  padding-bottom: 10px;
+  font-family: 'DM Serif Display', serif;
+}
+ul{
+  margin: 0;
+  padding: 0;
 }
 li{
+  font-family: 'Poppins', sans-serif;
   list-style: none;
   display: inline-block;
-  padding: 0 20px;
+  width: auto;
+  padding: 8px 20px;
 }
+
+li:hover{
+  background-color: #2541B2;
+  color: white;
+  border: 0 solid black;
+  border-radius: 50px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:active{
+  background-color: #2541B2;
+  color: white;
+  border: 0 solid black;
+  border-radius: 50px;
+}
+
+.name{
+  color: #2541B2;
+}
+
+.name:hover{
+  color: #1768AC;
+}
+
+.lastname{
+  font-weight:lighter;
+}
+
 
 .navbar{
   position: relative;
-  padding:2px 30px;
-  background: #222;
-  border: 2px solid lightgrey;
+  height: 40px;
+  width: auto;
+  background: #FFFFFF;
+  border: 2px solid #FFFFFF;
   border-radius: 50px;
+  padding-bottom: 20px;
 }
+
 
 .navLogo, .navLinks{
   display: inline-block;
@@ -26,10 +71,64 @@ li{
 }
 
 .navLogo{
-  top: 0;
-  left: 0;
+  height: 40px;
+  width: 30%;
+  left: 40px;
+
 }
 
 .navLinks{
-  right: 0;
+  height: 40px;
+  width: 70%;
+  top: 3px;
+  right: 40px;
+  text-align: right;
+}
+
+.aboutSection{
+  padding: 40px;
+  height: 300px;
+  width: auto;
+  border: 2px solid grey;
+  border-radius: 50px;
+}
+.aboutSection img{
+  height: 220px;
+  width: 18%;
+  padding: 35px;
+  float: left;
+}
+.bio{
+  padding: 40px;
+  width: auto;
+  margin-left: 280px;
+}
+
+
+.bio-para{
+  padding: 5px;
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
+}
+
+.portfolioSection{
+  height: 500px;
+  width: auto;
+  padding: 40px;
+  border: 2px solid red;
+  border-radius: 50px;
+}
+
+.porto-heading{
+  padding: 30px 30px 0 30px;
+  text-align: center;
+}
+.porto-para{
+  padding: 10px 40px;
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 1em;
+  font-family: 'Poppins', sans-serif;
 }
